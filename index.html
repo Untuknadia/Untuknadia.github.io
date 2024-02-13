@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Nadia.</strong>
+                        <p>
+                            Aku gatau mulai dari mana, mungkin sebelumnya aku ucapin terima kasih.
+                            Aku bersyukur bisa kenal kamu dengan cara mmungkin sedikit tidak terduga.
+                            Ya sebelumnya aku pernah bilang ke kamu kalo aku suka sama kamu itu terhitung confess ya?
+                            itupun harus kamu pancing dulu wkwkwk. Ya aku bikin ini bermaksud pengen memperbaiki gaya confessku
+                            ya dimana aku sekarang memang lagi suka sama kamu. Mungkin terdengar alay ya aku ngomongnya
+                            alasan aku suka dengan kamu aku suka lihat senyum manismu,cantikmu, tingkahmu, cara berfikirmu.
+                            Tiap hari aku berusaha pengen kenal kamu lebih dekat lagi. Ya aku juga sadar terkadang 
+                            sikap perasaan sukaku make you uncomfortable, sometimes feel annoying hari harimu.
+                            Ya mungkin kamu ngerasa aneh secara tiba tiba gada angin gada hujan ada stranger yang entah dari mana 
+                            tiba tiba bisa suka sampe kamu ngerasa aku buta. I think im not blind to judge people.
+                            Aku juga minta maaf kalau bikin kamu gak nyaman aku yang minta ketemu terus, im was too excited meet
+                            a girl like you. aku kaya ngerasa kamu berbeda dengan cewek-cewek yang kutemui sebelumnya.
+                            kamu pernah bilang kamu gak peka dan lain lain, i think that's normal aku juga masih banyak mempunyai kekurangan
+                            mungkin salah satunya aku sendiri gak pinter cari topik(kocak bjir pgn deket tapi gak kreatif).
+                            Mungkin masi banyak uneg" ku yang pengen kusampaikan tapi sementara segini dulu hehe.
+                            Aku harap kedepannya aku pengen punya status more than friend in our relationship.
+                            Happy Valentine Nad, you always be my favorite girl
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
